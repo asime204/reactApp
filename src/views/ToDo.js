@@ -14,7 +14,7 @@ export default class ToDo extends Component {
         return (
             <div>
                 <form onSubmit={this.props.handleToDoSubmit}>
-                    <input placeholder='Add a To Do Item' name='myText'/>
+                    <input placeholder='What has to be done?' name='myText'/>
                     <button type='submit'>Add</button>
                 </form>
 

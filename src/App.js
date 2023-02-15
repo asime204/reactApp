@@ -11,7 +11,7 @@ export default class App extends Component {
       age: 9000,
       myList: [],
     }
-    
+
   }
   addToDo = (e) => {
     e.preventDefault();
@@ -26,8 +26,8 @@ export default class App extends Component {
   render() {
     return (
       <Router>
-      <div>
-        <Nav />
+      <div style={{ textAlign: "center" }}>
+        <Nav style={{ display: "flex", justifyContent: "center" }}/>
 
         <Routes>
           <Route path='/' element={<Home age={this.state.age} happyBirthday={this.happyBirthday} />} />

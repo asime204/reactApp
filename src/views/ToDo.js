@@ -19,7 +19,6 @@ export default class ToDo extends Component {
                 </form>
 
 
-
                 <CheckboxList myList = {this.props.myList} deleteToDo={this.props.deleteToDo}/>
 
             </div>
